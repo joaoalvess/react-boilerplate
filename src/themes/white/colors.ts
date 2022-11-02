@@ -1,3 +1,3 @@
-import { ColorScheme } from "../types";
+import {ColorScheme} from '../types';
 
-export const colors: ColorScheme = {}
+export const colors: ColorScheme = {};

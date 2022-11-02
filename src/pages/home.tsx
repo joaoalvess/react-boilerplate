@@ -1,9 +1,7 @@
-import { FC } from 'react';
+import {FC} from 'react';
 
-export interface pagesProps {}
-
-export const Home: FC<pagesProps> = () => (
+export const Home: FC = () => (
   <div>
     <a href='/about'>home</a>
   </div>
-)
+);

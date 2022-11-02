@@ -1,11 +1,9 @@
-import { DefaultTheme } from "styled-components";
+import {DefaultTheme} from 'styled-components';
 
-import dark from "./dark";
-import white from "./dark";
+import dark from './dark';
+import white from './white';
 
-interface Themes {
-  [key: string]: DefaultTheme;
-}
+type Themes = Record<string, DefaultTheme>;
 
 const themes: Themes = {
   dark,

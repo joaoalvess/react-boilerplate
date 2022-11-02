@@ -1,0 +1,16 @@
+{
+	"space": true,
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "off",
+    "import/extensions": "off",
+    "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "n/prefer-global/process": "off",
+    "unicorn/filename-case": "off"
+  },
+  "ignores": [
+    "src/**.d.ts",
+    "commitlint.config.js"
+  ]
+}

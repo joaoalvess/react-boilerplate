@@ -1,1 +1,3 @@
-export interface ColorScheme {}
+export interface ColorScheme {
+  colorPrimary?: string;
+}
