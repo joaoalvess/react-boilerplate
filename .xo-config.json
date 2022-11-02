@@ -8,7 +8,9 @@
     "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/consistent-type-assertions": "off",
     "n/prefer-global/process": "off",
-    "unicorn/filename-case": "off"
+    "unicorn/filename-case": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "warn"
   },
   "ignores": [
     "src/**.d.ts",
