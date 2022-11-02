@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "xo --fix",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
@@ -57,6 +58,7 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-config-xo-react": "^0.27.0",
     "husky": "^8.0.1",
+    "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0",
     "xo": "^0.52.4"
