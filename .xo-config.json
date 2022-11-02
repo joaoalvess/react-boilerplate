@@ -10,7 +10,10 @@
     "n/prefer-global/process": "off",
     "unicorn/filename-case": "off",
     "comma-dangle": "off",
-    "@typescript-eslint/comma-dangle": "warn"
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/non-nullable-type-assertion-style": "off",
+    "unicorn/prefer-query-selector": "off",
+    "n/file-extension-in-import": "off"
   },
   "ignores": [
     "src/**.d.ts",
